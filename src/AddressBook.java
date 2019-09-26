@@ -23,6 +23,10 @@ public class AddressBook {
 		return null;
 	}
 	
+	private void emptyMethod() {
+		return;
+	}
+	
 
 	public static void main(String[] args) {
 		System.out.println("Address book");
