@@ -1,0 +1,1 @@
+<AddressBook><BuddyInfo> <Address>111 Real St.</Address> <name>Mrs.Buddy</name><phoneNum>613wrongnum</phoneNum><age>38</age></BuddyInfo><BuddyInfo> <Address>111 Fake St.</Address> <name>Mr.Buddy</name><phoneNum>6131234567</phoneNum><age>0</age></BuddyInfo><BuddyInfo> <Address>Road</Address> <name>Homer</name><phoneNum>123</phoneNum><age>0</age></BuddyInfo></AddressBook>

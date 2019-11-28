@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="MyApplication">
+	<description>
+    Create a jar file to execute the AddressBook
+  	</description>
+
+	<target name="compile">
+		<mkdir dir="${basedir}/build/classes" />
+		<javac srcdir="src/AddressBook" destdir="build/classes" />
+	</target>
+
+	<target name="packaging" depends="compile">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/BuddyTracker.jar" basedir="build/classes">
+			<manifest>
+				<attribute name="Main-Class" value="AddressBook/AddressBook" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="run">
+		<java jar="build/jar/BuddyTracker.jar" fork="true" />
+	</target>
+
+</project>
